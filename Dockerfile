@@ -2,4 +2,4 @@ from python
 run pip install bytewax
 workdir app
 copy . .
-python -m bytewax.run script
+entrypoint python -m bytewax.run script
